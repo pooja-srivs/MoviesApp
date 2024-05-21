@@ -20,3 +20,16 @@ Project Details :
 5- LiveData for Observable Data Holder Class
 
 6- Unit-Testing (in progress)
+
+
+
+
+Demo Screenshots ::
+
+<img width="406" alt="image" src="https://github.com/pooja-srivs/MoviesApp/assets/45348353/261b267f-d82d-45fe-90f6-7f1cc5392315">
+
+<img width="411" alt="image" src="https://github.com/pooja-srivs/MoviesApp/assets/45348353/c5ea8e57-925a-4527-94f4-b5adb36f1800">
+
+<img width="405" alt="image" src="https://github.com/pooja-srivs/MoviesApp/assets/45348353/335041f0-d722-4a39-bbce-075f7e6a2e20">
+
+
