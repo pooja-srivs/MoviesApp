@@ -13,9 +13,6 @@ interface RemoteResponseDao {
     @Query("SELECT * FROM movies")
     fun getAllMovies(): Flow<List<MovieEntity>>
 
-    @Query("SELECT * FROM movies WHERE id = :movieId")
-    suspend fun getMovieById(movieId: String): MovieEntity
-
     @Insert(onConflict = OnConflictStrategy.REPLACE)
     suspend fun insertMovie(movie: List<MovieEntity>)
 

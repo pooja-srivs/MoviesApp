@@ -66,25 +66,45 @@ dependencies {
     implementation(libs.androidx.material3)
     implementation(libs.hilt.android)
     kapt(libs.hilt.android.compiler)
+    //recyclerview
     implementation(libs.androidx.recyclerview)
+    //coroutine
     implementation(libs.androidx.coroutine)
     implementation(libs.androidx.coroutine.core)
+    //okhttp
     implementation(libs.androidx.okhttp)
+    //retrofit-gson
     implementation(libs.androidx.retrofit.gson)
+    //retrofit
     implementation(libs.androidx.retrofit)
     implementation(libs.androidx.retrofit.coroutine)
+    //coroutine-test
     testImplementation(libs.kotlinx.coroutines.test)
+    //mockk-testing
     testImplementation(libs.mockk)
+    //mockito-testing
     testImplementation(libs.mockito.core)
     testImplementation(libs.mockito.kotlin)
+    //nav-graph
     implementation(libs.androidx.navigation.fragment.ktx)
     implementation(libs.androidx.navigation.ui.ktx)
+    //room-db
     implementation(libs.androidx.room.runtime)
     implementation(libs.androidx.room.ktx)
     kapt(libs.androidx.room.compiler)
+    //fragment-support
     implementation(libs.androidx.fragment.ktx)
+    //lifecycle-viewmodel
     implementation(libs.androidx.lifecycle.viewmodel.ktx)
+    //lottie-animation
     implementation(libs.lottie)
+    //test-runner-and-rules-and-core
+    implementation(libs.androidx.test.runner)
+    implementation(libs.androidx.test.rules)
+    implementation(libs.androidx.core.testing)
+    //turbine-for-test-flows
+    testImplementation(libs.turbine)
+    androidTestImplementation(libs.turbine)
     implementation(libs.material)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
